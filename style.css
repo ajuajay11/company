@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+body{
+  font-family: 'Playfair Display', serif;
+  background-color: rgba(248, 248, 248, 0.44);
+}
+/* header section starts */
+.header{
+  z-index: 2;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  transition: 1s;
+  top: 0;
+}
+
+#mg-botton{
+  margin-bottom: 50px;
+}
+.full-height{
+  background: linear-gradient(rgb(45 187 174 / 76%), rgb(0 0 0 / 40%)), url(./image/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner\ \(1\).jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.logo .nav-link{
+  padding: 0;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 60px;
+  height: 30px;
+}
+.navigation ul li{
+  transition: 0.9s;
+  margin-right: 5px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.navigation ul li a{
+   color: rgb(38 245 255 / 97%);
+   text-shadow: 2px 0px #ff0000;
+   
+}
+.navigation ul li:hover{
+  background: white;
+  cursor: pointer;
+}
+.navigation ul li a:hover{
+  color: rgb(38 245 255 / 97%);
+}
+/* header section ends */
+
+
+/* sub header section starts */
+.head-banner{
+    padding: 200px 0px;
+}
+.head-banner h2{
+  font-size: 18px;
+  font-family: italic;
+}
+.head-banner span{
+  font-size: 90px;
+  text-shadow: 1px 1px 2px #141414, 0 0 1em #61dfe5, 0 0 0.2em #f9f9f96b;
+  padding: 0px 12px;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+}
+.head-banner p{
+  opacity: 0.5;
+}
+.sub-header .btn{
+  background: #239ea7;
+  border: 1px solid white;
+  border-radius:15px ;
+  cursor: pointer;
+}
+.sub-header .btn a{
+  color: white;
+}
+
+/* sub header section starts */
+/* hero section starts */
+
+.hero .hero-image{
+  width: 450px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero-section{
+  padding: 96px 0px;
+}
+.hero-section h2{
+  font-weight: 600;
+  color: #2b8393;
+}
+.hero-section p{
+  padding: 0px 40px 0px 0px;
+  color: #33333385;
+}
+/* hero section ends */
+
+/* about company starts */
+.section-head h2{
+  color: #2b8393;
+  font-weight: 600;
+}
+.section-head p{
+  color:#2b8393;
+  font-weight: 200;
+}
+.aboutUs .icon{
+  padding: 22.5px 12.5px 18px 0px;
+}
+.aboutUs .icon p{
+  margin:8px 0px;
+}
+.aboutUs .icon a{
+  text-decoration: none;
+}
+.aboutUs .icon a i{
+ color: #ff4242;
+ font-size: 50px;
+}
+.aboutUs .icon p{
+  color: #2b8393;
+ }
+
+/* about company ends */
+
+/* company details starts*/
+.details{
+  background-color: #239ea7;
+  padding:40px 0px;
+}
+.details .count1{
+  background:linear-gradient(rgb(255 255 255 / 80%), rgb(255 255 255 / 80%));
+  padding: 30px;
+  margin-left: 30px;
+  box-shadow: 5px 10px #395052;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   color:#239ea7;
+}
+.details .count1 h5,p{
+  font-weight: 800;
+}
+.details .count1 i{
+  font-size: 30px;
+  color:rgba(199, 42, 42, 0.514);
+}
+/* company details ends*/
+
+/* SLIDESHOOW  STARTS */
+
+.testimonial{
+  padding: 80px 0px;
+   ;
+}
+.test-image{
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+.test-image img{
+  border-radius: 50%;
+  border: 2px solid #239ea7;
+  width: 160px;
+  height: 160px;
+}
+
+.slideshow-container {
+  position: relative;
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 8px 10px 1px #999;
+  color:#999;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:#61dfe5;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color:#239ea7;
+}
+
+
+/* SLIDESHOW ENDS */
+
+/* contacts starts */
+.contact{
+  background: #2b8393;
+}
+.contact-header{
+  padding: 20px 0px;
+}
+.contact-header h2{
+  color: white;
+  font-weight: 600;
+}
+.contact-header p{
+  color: aliceblue;
+  opacity: 0.5;
+}
+.email_add .mail,.phone{
+  background: white;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 25px;
+  margin: 20px;
+  width: 250px;
+}
+.email_add .mail a{
+  color: #2b8393;
+  font-weight: 300;
+  /* text-shadow: 2px 0px #ff0000; */
+}
+.email_add .phone a{
+  color: #2b8393;
+  font-weight: 300;
+  /* text-shadow: 2px 0px #ff0000; */
+}
+.form-group{
+  margin-bottom: 22px;
+}
+/* contact ends */
+
+/*footer section starts*/
+
+.footer{
+    background-color:#2b8393;
+    padding: 30px 0;
+    color: #222;
+    font-size: 14px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 8px 10px 10px #239ea7;
+}
+.footer p{
+    margin: 0;
+}
+.footer a{
+    padding: 0;
+    color: #239ea7;
+    text-decoration: none;
+}
+
+
+/*footer section ends*/
