@@ -1,3 +1,114 @@
-@media  {
-    
+/*
+X-Small	None <576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+*/
+@media (min-width:992px){
+    .navbar ul{
+        /* display: block; */
+    }
+    .header span{
+        display: none;
+    }
+    .navbar{
+        display: flex;
+    }
+}
+
+@media (max-width:991px){
+    .navbar ul {
+        top: 45px;
+        width: 75%;
+        height: 40%;
+        margin: 0px 0px;
+        display: none;
+        right: 12px;
+        background: white;
+        -webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow:0 6px 8px 1px #2dabae;    
+        position: fixed;
+
+    }
+    .header span{
+        display: block;
+        color: white;
+        font-weight: 900;
+        cursor: pointer;
+    }
+    .head-banner {
+        padding: 158px 0px!important;
+    }
+    /* subhead */
+    .head-banner h2 {
+        font-size: 10px!important;
+    }
+    .head-banner span {
+        font-size: 62px!important;
+    }
+    .head-banner p {
+        font-size: 10px;
+    }
+    .button {
+        width: 100px!important;
+        height: 50px!important;
+        padding: 10px!important;
+    }
+
+    /* subhead */
+
+    /* hero */
+    .hero{
+        padding: 10px 0px!important;
+    }
+    .hero .hero-image{
+        width: auto!important;
+        height: auto!important;
+    }
+    .hero .hero-section {
+        padding: 5px 0px!important;
+    }
+    .hero-section p {
+        padding: 0px!important;
+        font-size: 12px;
+    }
+    /* hero */
+    /* about-company    */
+
+    .aboutUs .icon {
+        padding: 0px!important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-image{
+        padding: 10px!important;
+    }
+    /* about-company    */
+
+    /* testimonial  */
+
+    .testimonial {
+        padding: 30px 0px!important;
+    }
+    .mySlides {
+        padding: 20px!important;
+    }
+    /* testimonials */
+
+    /* form */
+    .email_add .mail, .phone {
+        margin: 20px 0px!important;
+        width: 100%!important;
+    }
+    /* form */
+
+    /* footer */
+    .details .count1 h5, p {
+        font-weight: 400!important;
+        font-size: 10px;
+    }
 }
