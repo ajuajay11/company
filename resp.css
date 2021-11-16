@@ -36,6 +36,8 @@ Extra extra large	xxl	≥1400px
         color: white;
         font-weight: 900;
         cursor: pointer;
+        background: #27a4a9;
+        padding: 0px 5px;
     }
     .head-banner {
         padding: 158px 0px!important;
